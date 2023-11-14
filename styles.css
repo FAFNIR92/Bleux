@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body > .header-cv {
+    width: 100%;
+    background-color: #1e172f;
+}
+
+.header-cv > .container-navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo,
+.navbar {
+    width: 50%;
+    margin: 1rem;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.navbar >li {
+    list-style: none;
+
+}
+.navbar >li >a {
+    text-decoration: none;
+    color: #ffffff72;
+    padding: 0.5rem;     
+    font-size: 20px;
+}
+.navbar > li > a:hover {
+    color: aliceblue;
+}
+
+.download {
+    padding: 14px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background: linear-gradient(to right, #6e20ff, #099dd8);
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+.download:hover {
+    background: linear-gradient(to right, #0881b1, #6e20ff);
+    color: white;
+}
+
+.logo {
+    color: azure;
+    font-family: cursive;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.container {
+    width: 100%;
+    height:auto;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.left-box {
+   height: 36rem;
+   flex: 1;
+   background-color: #2e2550;
+   text-align: center;
+    
+}
+.right-box {
+    height: 24rem;
+    flex: 1;
+    position: relative;
+}
+.left-box h1 {
+    font-size: 60px;
+   margin-top: 10rem;
+   margin-right: 11rem; 
+}
+.left-box h1 {
+    color: #ffffff;
+}
+
+.left-box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+.buttons {
+    width: 21.5rem;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #ffffff72;
+    margin-left: 20rem;  
+    border-radius: 3px;
+}
+.btn {
+    background-color: transparent;
+    color: white;
+}
+.btn:hover {
+    color: #f41888;
+    background-color: white;
+}
+.buttons button {
+    border: 1px solid white; 
+    width: 10rem;
+    padding: 10px 0px;  
+    border-radius: 4px;
+}
+
+.background-image {
+    height: 36rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('./img/hojasFondo.jpg');
+    background-size: cover;
+}
+.foreground-image {
+    
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 400px;
+    background-image: url('./img/phone.png');
+    background-size: cover;
+}
+
+.services {
+    width: 100%;
+    
+}
+.services h2 {
+    margin: 40px;
+    font-size: 60px;
+    text-align: center;
+    color: #f41888;
+}
+.div-container {
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.laptop {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; 
+}
+.laptop img {
+    width: 50%;
+    height: auto;  
+    margin-right: 20px;
+}
+
+.alpa {
+    width: 50%; 
+}
+.alpa .screen {
+    color: #f41888;
+    opacity: 0.8;
+    margin-left: 50px;
+    font-size: 50px;
+
+}
+.alpa p {
+    margin-left: 50px;
+}
+.alpa h3 {
+    color: #f41888;
+    margin-bottom: 10px;
+        opacity: 0.8;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.alpa p > i {
+    color:#f41888;
+}
+.alpa  span {
+    margin-left: 5px;
+}
+
+.plans {
+    width: 100%;
+    background-color: rgb(36, 18, 53);
+    
+}
+.Future-h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 30px;
+}
+.plans p {
+    text-align: center;
+    color: #ffffff;
+}
+.pricing {
+    display: flex;
+   justify-content: center;
+   
+   flex-wrap: wrap;
+    
+}
+.lite {
+    width: 300px;
+    height: auto;
+    margin: 50px 10px;
+    background-color: #ffffff;
+    text-align: center;  
+}
+.lite h2 {
+    color:#f41888;
+}
+.standard {
+    margin-bottom: 19px;
+    
+}
+.standard h2 {
+    color: rgb(36, 18, 53);
+    margin-bottom: 15px;
+}
+.prince {
+    margin: 18px;
+
+}
+ .dollar {
+    font-size: 30px;
+    font-weight: bold;
+}
+.prince span {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.lite ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+.lite ul > li {
+    line-height: 20px;
+}
+.lite ul > li > i {
+    color:#f41888;
+}
+
+.lite p {
+ color: black;
+ margin-bottom: 30px; 
+
+}
+.subscribe {
+    background-color: rgb(36, 18, 53);
+    color: white;
+    padding: 7px 7px ;
+    border: none;
+
+}
+.subscribe:hover {
+    background-color:#f41888;
+}
+
+.full {
+
+    color: black;
+}
+.description p {
+    color: black;
+}
+
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+
+}
+footer span {
+    color : #f41888;
+}
+.bx{
+    font-size: 2rem;
+    color: #1e172f;
+
+}
+
+@media (max-width: 920px) {
+   .header-cv > .container-navbar {
+     flex-direction: column;
+     text-align: center;
+   }
+ 
+   .logo,
+   .navbar {
+     width: 100%;
+     margin: 1rem 0;
+     text-align: center;
+   }
+ 
+   .navbar {
+     justify-content: center;
+     gap: 10px;
+   }
+ 
+   .navbar > li > a {
+     font-size: 16px;
+   }
+ 
+   .left-box h1 {
+     font-size: 40px;
+     margin-top: 5rem;
+     margin-right: 0;
+   }
+ 
+   .buttons {
+     margin-left: 0;
+   }
+ 
+   .laptop,
+   .alpa {
+     width: 100%;
+     margin-right: 0;
+     justify-content: center;
+   }
+ 
+   .laptop img {
+     width: 70%;
+     margin-right: 0;
+   }
+ 
+   .alpa .screen,
+   .alpa h3 {
+     margin-left: 0;
+   }
+ 
+   .subscribe {
+     margin-top: 20px;
+   }
+}
+ 
+@media (max-width: 380px) {
+   .logo {
+     font-size: 30px;
+     margin-left: 20px;
+   }
+ 
+   .navbar {
+     gap: 10px;
+   }
+ 
+   .navbar > li > a {
+     font-size: 14px;
+   }
+ 
+   .left-box h1 {
+     font-size: 40px;
+     margin-top: 5rem;
+     margin-right: 0;
+   }
+ 
+   .buttons {
+     margin-left: 0;
+   }
+ 
+   .laptop img {
+     width: 100%;
+     margin-right: 0;
+   }
+ 
+   .alpa .screen,
+   .alpa h3 {
+     margin-left: 0;
+   }
+}
+  
